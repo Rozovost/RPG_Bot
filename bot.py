@@ -2,7 +2,7 @@ import telebot
 from telebot.types import ReplyKeyboardMarkup
 from PIL import Image
 import json
-API_TOKEN = '6721240922:AAHJpMaIMw_pfYsKLsqRNx5j9tH12GnVEfs'
+API_TOKEN = ''  # YOUR TOKEN
 start_image = Image.open('images/start.png')
 bot = telebot.TeleBot(API_TOKEN)
 quest_info = ("В далёкой и загадочной стране, где магия и мифические существа — не вымысел, "
